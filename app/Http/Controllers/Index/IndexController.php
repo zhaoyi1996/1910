@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 class IndexController extends Controller
 {
     public function index(){
+        dump(123);
         return view('index.index');
 
     }
